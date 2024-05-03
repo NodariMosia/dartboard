@@ -10,10 +10,13 @@ run:
 	go run ./cmd
 
 clean:
-	go clean
 	rimraf bin
+	go clean
+	go mod tidy
+	go mod download
 
 build:
+	rimraf bin
 	go mod tidy
 	go build -o bin/ ./cmd
 

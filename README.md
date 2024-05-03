@@ -2,10 +2,7 @@
 
 ## About
 
-This project is a golang TUI (Terminal User Interface) dartboard game.
-
-Project uses [bubbletea](https://github.com/charmbracelet/bubbletea) to build the
-terminal user interface.
+TODO
 
 ## Setup
 

@@ -20,3 +20,11 @@ go.work
 
 # Misc
 .DS_STORE
+
+# Local libsql temporary files
+libsql-*/
+
+# Environment variables
+.env
+.env.*
+!.env.example

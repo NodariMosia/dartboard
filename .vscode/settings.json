@@ -17,5 +17,14 @@
         "editor.insertSpaces": true,
         "prettier.tabWidth": 4,
         "prettier.printWidth": 80
+    },
+
+    "[env]": {
+        "editor.defaultFormatter": "IronGeek.vscode-env"
+    },
+
+    "files.associations": {
+        ".env": "env",
+        ".env.example": "env"
     }
 }
